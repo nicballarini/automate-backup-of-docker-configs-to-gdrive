@@ -8,7 +8,7 @@ Anyhow, I had all my data again and wanted to automate the backup process off-si
 
 The source I'm basing my process on is here: https://medium.com/server-guides/backup-your-docker-files-to-google-drive-ae66e53af69b
 
-I used this guide as a template, then customized the process to fit my needs. I also wanted to go a bit more granular with the backups and clean up the process a bit.
+I used this guide as a template, then customized the process to fit my needs. I also wanted to go a bit more granular with the backups, clean up the process a bit and automate the process as much as possible.
 
 
 
