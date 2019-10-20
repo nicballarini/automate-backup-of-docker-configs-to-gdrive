@@ -1,9 +1,7 @@
 #!/bin/bash
 
-#Define vars
-PATH_TO_DOCKER_CONFIGS=/[INPUT_YOUR_DOCKER_CONFIGS_PATH]
-DOCKER_MONTHLY_BACKUP_FILENAME=docker2.$(date +%Y-%m).tar.bz2
-PARENT_ID_MONTHLY_FOLDER=[INPUT_FOLDER_ID_FROM_GDRIVE]
+#grab variables from config.sh
+source config.sh
 
 #zip the given dir using and saving using generated filename
 tar -cvjf /backup/monthly/$DOCKER_MONTHLY_BACKUP_FILENAME $PATH_TO_DOCKER_CONFIGS/
