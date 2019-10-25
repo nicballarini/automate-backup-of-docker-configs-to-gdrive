@@ -1,12 +1,8 @@
 #!/bin/bash
 
 #Define your docker setup
-#example: PATH_TO_DOCKER_CONFIGS=/data/docker.configs
-PATH_TO_DOCKER_CONFIGS=/path/to/docker/configs
-
-
-
-
+#example: PATH_TO_DOCKER_CONFIGS=/data/dockerconfigs
+PATH_TO_DOCKER_CONFIGS=/path/to/dockerconfigs
 
 #gdrive-related PATH ID's 
 #these will be populated from the create_folder_structure.sh
