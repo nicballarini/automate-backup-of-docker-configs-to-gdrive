@@ -1,8 +1,7 @@
 #!/bin/bash
 
-#Define vars
-PATH_TO_DOCKER_CONFIGS=/[INPUT_YOUR_DOCKER_CONFIGS_PATH]
-PARENT_ID_WEEKLY_FOLDER=[INPUT_FOLDER_ID_FROM_GDRIVE]
+#grab variables from config.sh
+source config.sh
 
 #I'm backing up each docker container group separately to make restoring more granular. If I screw up a small piece, there's no reason to restore the entire lot.
 #
